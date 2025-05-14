@@ -1,0 +1,28 @@
+{
+  "name": "bagsapp-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "@tanstack/react-query": "^5.59.0",
+    "axios": "^1.7.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "gh-pages": "^6.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "https://your-username.github.io/bagsapp-dashboard"
+}
